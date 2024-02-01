@@ -1,0 +1,44 @@
+.hamburger{
+    display: none;
+}
+.top-header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    top:-2%;
+}
+.logo
+{
+    width: 50%;
+    padding-left: 2%;
+    padding-top: 25px;
+}
+.header-inheader
+{
+    padding-top: 10px;
+    padding-left: 400px;
+}
+.header-inheader select{
+    border: none;
+    background-color: white;
+    color: grey;
+}
+.header-inheader a{
+    text-decoration: none;
+}
+.header-inheader ul{
+    list-style-type: none;
+    display: flex;
+}
+.header-inheader li {
+    margin: 8px;
+    padding: 9px;
+}
+.header-inheader a:hover,select:hover{
+    outline:auto;
+    outline-color: rgb(75, 74, 74);
+    padding: 4px;
+}

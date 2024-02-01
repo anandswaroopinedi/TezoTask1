@@ -1,0 +1,60 @@
+.footer
+{
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black ;
+    margin-right: 60px;
+}
+.footer-head-desc
+{
+    padding-right:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+    font-size: 13px;
+    padding-right: 30px;
+}
+.footer-head{
+    color: black;
+}
+.footer-desc
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.footer div{
+    margin: 5px;
+}
+.footer-desc h1,p,a{
+    text-align: left;
+    text-decoration: none;
+    color: grey;
+}
+.social-meadia{
+    line-height: 10px;
+}
+.social-links{
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 30px;
+}
+.stores{
+    text-align: left;
+}
+.app-stores{
+    position: relative;
+    bottom: 15px;
+}
+.playstore{
+    width: 60px;
+    border-radius: 15px;
+}
+.applestore{
+    margin-top: 20px;
+    width: 60px;
+    border-radius: 15px;
+}
+.copy-right{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}

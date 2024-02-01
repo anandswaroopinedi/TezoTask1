@@ -1,0 +1,526 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(59, 58, 58);
+    background-color: white;
+    width: 100%;
+   }
+.top-header {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    background-color: white;
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    z-index: 100;
+    top:-4%;
+
+}
+html{
+    background-color: white;
+}
+.header-inheader
+{
+    display: none;
+    padding-top: 10px;
+    padding-left: 3%;
+}
+.header-inheader select{
+    border: none;
+    background-color: white;
+    color: grey;
+}
+.header-inheader a{
+    text-decoration: none;
+}
+.header-inheader ul{
+    list-style-type: none;
+    display: flex;
+}
+.header-inheader li {
+    margin: 8px;
+}
+.header-inheader a:hover,select:hover{
+    outline:auto;
+    outline-color: rgb(75, 74, 74);
+    padding: 4px;
+}
+.hamburger{
+    position: relative;
+    left: 75%;
+    top: 50%;
+}
+.top-header img
+{
+    margin-top: 100%;
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+.body-section1-desc{
+    padding-top: 23vw;
+}
+.body-section1-desc h3{
+    color: rgb(223,105,81);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4vw;
+    text-align: left;
+}
+.body-section1-desc h1{
+    color: rgb(24,30,75);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7vw;
+    text-align: left;
+}
+.body-section1-desc p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vw;
+    text-align: left;
+    color: rgb(151, 142, 142);
+}
+.body-section1-desc button{
+    background-color: rgb(241,165,1);
+    width: 30%;
+    height: 11vw;
+    border: none;
+    box-shadow: 1px 10px 9px rgb(250, 232, 197);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 2vw;
+    font-size: 4vw;
+}
+.body-section1 img{
+    margin-top: 5vw;
+    width: 50vw;
+    margin-left: 20%;
+}
+.category-style{
+    color: rgb(122,125,152);
+    text-align: center;
+    font-size: 5vw;
+}
+.offer-style{
+    color: rgb(20,24,62);
+    text-align: center;
+    margin-top: -2vw;
+    font-size: 6vw;
+}
+.star-img{
+    display: none;
+}
+.body-section2-desc img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body-section2-desc h3{
+    text-align: center;
+    font-size: 5vw;
+}
+.body-section2-desc p{
+    text-align: justify;
+    font-size: 4vw;
+}
+.body-section2-offer1{
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.body-section2-offer1:hover{
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 4px rgb(223, 222, 221);
+}
+.body-section2-offer2{
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.body-section2-offer2:hover{
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 4px rgb(223, 222, 221);
+}
+.body-section2-offer3{
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.body-section2-offer3:hover{
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 4px rgb(223, 222, 221);
+}
+.body-section2-offer4{
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.body-section2-offer4:hover{
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 4px rgb(223, 222, 221);
+}
+.body-section3-heading{
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+    font-size: 5vw;
+}
+.body-section3-heading2{
+    text-align: center;
+    font-size: 6vw;
+}
+.Destination-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.destination-upperdesc{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.Destination-name{
+    text-align: left;
+    color:grey;
+    font-size: 4vw;
+}
+.Destination-price
+{
+    color: grey;
+    text-align: right;
+    font-size: 4vw;
+}
+.destination-lowdesc
+{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.destination-lowdesc p{
+    text-align: left;
+    color: grey;
+    padding-left: 12%;
+    font-size: 4vw;
+    margin-top: 3%;
+}
+.destination-lowdesc img {
+    padding-top: 30%;
+    width: 140%;
+}
+.specification{
+    margin-top: 5%;
+    text-align: center;
+    color: grey;
+    font-size: 5vw;
+}
+.process-heading{
+        text-align: center;
+        font-size: 6vw;
+}
+.Destination1
+{
+    margin-top: 5%;
+    transition: 0.5s;
+}
+.Destination1:hover {
+    transform:scale(1.1);
+}
+.Destination2
+{
+    margin-top: 10%;
+    transition: 0.5s;
+}
+.Destination2:hover {
+    transform:scale(1.1);
+}
+.Destination3
+{
+    margin-top: 10%;
+    transition: 0.5s;
+}
+.Destination3:hover {
+    transform:scale(1.1);
+}
+.trip-process
+{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.trip-process-desc h3
+{
+    text-align: left;
+    color: grey;
+    font-size: 5vw;
+
+}
+.trip-process-desc p
+{
+    text-align: left;
+    margin-top: -0.2%;
+    font-size: 4vw;
+}
+.upcoming-trip
+{
+    width: 50%;
+    margin-top: 25%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 30px -30px 25px rgb(223, 238, 244);
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.upcoming-trip-loc{
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.upcoming-trip-date{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.upcoming-trip-img1
+{
+    margin: 5%;
+    width: 90%;
+    border-radius: 10%;
+}
+.upcoming-trip-icons img
+{
+    width: 5%;
+    padding-left: 2%;
+}
+.upcoming-trip-count
+{
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+}
+.upcoming-trip-count pre{
+    margin-left: -5%;
+    margin-top: -1%;
+}
+.people-count{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.like-img{
+    margin-left: 15px;
+    width: 40%;
+    margin-top: 20%;
+}
+.trip-count-img img{
+    width: 50%;
+    margin-left: 22%;
+}
+.ongoing-trip{
+    position: relative;
+    width: 30%;
+    height: 18vw;
+    left: 50%;
+    margin-top: -25%;
+    margin-bottom: -25%;
+    display: grid;
+    border-radius: 20px;
+    background-color: white;
+    grid-template-columns: 20% 80%;
+    box-shadow: 1px 1px 0px rgb(196, 195, 195);
+}
+.ongoing-trip-loc{
+    color: black;
+    font-weight: bold;
+}
+.ongoing-trip-period{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.rome-img{
+    width: 100%;
+    border-radius: 50%;
+    margin: 4%;
+}
+.ongoing-trip-desc{
+    line-height: 35%;
+    margin-left: 10%;
+}
+.ongoing-trip-status{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.ongoing-trip progress{
+    accent-color: blueviolet;
+}
+.ongoing-trip progress[value]{
+    width: 80%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+.body-section5-desc
+{
+    background-color: rgb(236,234,243);
+    border-radius: 95px 35px 5px 5px;
+    margin-top: 40%;
+    margin-left: 1%;
+    margin-right: 5%;
+    height: 45vw;
+}
+.body-section5-img3{
+    position: relative;
+    width: 30%;
+    top:28%;
+    opacity: 0.1;
+}
+.body-section5-img4
+{
+    position: relative;
+    width: 20%;
+    top: -1%;
+    left: 49%;
+    opacity: 0.1;
+}
+.body-section5-img
+{
+    position: relative;
+    top: -45%;
+    left: 40%;
+    width: 10%;
+}
+.body-section5-desc h2{
+    margin-top: -20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 3vw;
+}
+.body-section5-desc form{
+    margin-top: -3%;
+    padding-left: 30%;
+    margin-bottom: 40%;
+}
+.body-section5-desc i{
+    position: absolute;
+}
+.icon {
+    padding-top: 1.2%;
+    margin-left: -1%;
+    color: black;
+    min-width: 10vw;
+    text-align: center;
+}
+.email-input-box{
+    padding: 2%;
+    border: none;
+    text-align: left;
+    padding-left: 20%;
+    border-radius: 10px;
+    width: 40%;
+}
+.submit-btn{
+    background-color: rgb(240, 127, 86);
+     border-radius: 10px;
+     padding: 2%;
+     border: none;
+     width: 25%;
+     margin-left: 3%;
+     color: white;
+     font-size: 2%;
+}
+.body-section5-img2 {
+    position: relative;
+    left: 90%;
+    margin-top: -3%;
+    width:10%;
+}
+.footer
+{
+    margin-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black ;
+}
+.footer-desc
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.footer-desc h1,p,a{
+    text-align: left;
+    text-decoration: none;
+    color: grey;
+    font-size: 2vw;
+}
+.footer-head-desc
+{
+    padding-right:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+    font-size: 4vw;
+    padding-right: 30px;
+}
+.footer-desc h2{
+    font-size: 3vw;
+}
+.footer-desc p{
+    padding-top: 10%;
+    font-size: 2vw;
+}
+.footer-desc h1{
+    text-align: left;
+    text-decoration: none;
+    font-size: 100%;
+}
+.footer-desc h3{
+    line-height: 100%;
+}
+.social-meadia{
+    line-height: 10px;
+}
+.social-links{
+    margin-top: 10%;
+    padding-left: 10px;
+    width: 10%;
+}
+.stores{
+    text-align: left;
+}
+.playstore{
+    width: 40%;
+    border-radius: 15px;
+}
+.applestore{
+    width: 40%;
+    border-radius: 15px;
+}
+.app-stores{
+    position: relative;
+    top:3%
+}
+.copy-right{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
